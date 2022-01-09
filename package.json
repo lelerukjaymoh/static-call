@@ -1,0 +1,23 @@
+{
+  "name": "static-calls",
+  "version": "1.0.0",
+  "description": "A script to make static calls to different smart contract methods to check if they will fail or pass",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --require pretty-error/start src/index.ts"
+  },
+  "keywords": [
+    "static",
+    "calls",
+    "smart",
+    "contract"
+  ],
+  "author": "lelerukjaymoh@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.5.3",
+    "pretty-error": "^4.0.0",
+    "ts-node-dev": "^1.1.8"
+  }
+}
